@@ -45,5 +45,12 @@ namespace NavajaSuiza
             Aplicación_3.FrmAplicacion3 oFormulario = new Aplicación_3.FrmAplicacion3();
             oFormulario.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Esta apliación escribe y sume la serie 3,6,9....99, teniendo en cuenta que solo puede escribir 10 números por linea.");
+            Aplicación_4.FrmAplicacion4 oFormulario = new Aplicación_4.FrmAplicacion4();
+            oFormulario.ShowDialog();
+        }
     }
 }

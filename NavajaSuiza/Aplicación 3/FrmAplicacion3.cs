@@ -31,11 +31,9 @@ namespace NavajaSuiza.Aplicación_3
                 
             for(i = 1; i <= exponente; i++)
             {
-            
+           
                 resultado = resultado * numero;
     }
-
-
           MessageBox.Show("El resultado es" + " " + resultado);
 
 

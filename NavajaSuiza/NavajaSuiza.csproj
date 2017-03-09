@@ -64,6 +64,12 @@
     <Compile Include="Aplicación 3\FrmAplicacion3.designer.cs">
       <DependentUpon>FrmAplicacion3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Aplicación 4\FrmAplicacion4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aplicación 4\FrmAplicacion4.designer.cs">
+      <DependentUpon>FrmAplicacion4.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Aplicación 3\FrmAplicacion3.resx">
       <DependentUpon>FrmAplicacion3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aplicación 4\FrmAplicacion4.resx">
+      <DependentUpon>FrmAplicacion4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
@@ -106,9 +115,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Aplicación 4\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

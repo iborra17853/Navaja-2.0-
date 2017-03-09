@@ -20,3 +20,4 @@ C:\Users\andres\Desktop\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Properties
 C:\Users\andres\Desktop\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.csproj.GenerateResource.Cache
 C:\Users\andres\Desktop\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicación_2.FrmAplicacion2.resources
 C:\Users\andres\Desktop\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicación_3.FrmAplicacion3.resources
+C:\Users\andres\Desktop\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicación_4.FrmAplicacion4.resources
