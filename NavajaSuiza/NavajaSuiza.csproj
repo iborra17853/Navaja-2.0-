@@ -46,12 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aplicación 1\Aplicacion1.cs" />
-    <Compile Include="Aplicación 1\frmAplicacion1.cs">
+    <Compile Include="Aplicación 1\FrmAplicacion1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aplicación 1\frmAplicacion1.Designer.cs">
-      <DependentUpon>frmAplicacion1.cs</DependentUpon>
+    <Compile Include="Aplicación 1\FrmAplicacion1.designer.cs">
+      <DependentUpon>FrmAplicacion1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aplicación 2\FrmAplicacion2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aplicación 2\FrmAplicacion2.designer.cs">
+      <DependentUpon>FrmAplicacion2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aplicación 3\FrmAplicacion3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aplicación 3\FrmAplicacion3.designer.cs">
+      <DependentUpon>FrmAplicacion3.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
@@ -61,8 +72,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Aplicación 1\frmAplicacion1.resx">
-      <DependentUpon>frmAplicacion1.cs</DependentUpon>
+    <EmbeddedResource Include="Aplicación 1\FrmAplicacion1.resx">
+      <DependentUpon>FrmAplicacion1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aplicación 2\FrmAplicacion2.resx">
+      <DependentUpon>FrmAplicacion2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aplicación 3\FrmAplicacion3.resx">
+      <DependentUpon>FrmAplicacion3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
@@ -90,8 +107,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Aplicación 2\" />
-    <Folder Include="Aplicación 3\" />
     <Folder Include="Aplicación 4\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

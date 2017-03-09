@@ -10,30 +10,36 @@ using System.Windows.Forms;
 
 namespace NavajaSuiza.Aplicación_1
 {
-    public partial class frmAplicacion1 : Form
+    public partial class FrmAplicacion1 : Form
     {
-        /// <summary>
-        /// crea una variable de tipo aplicacion1 y la instancia para uso posterior
-        /// </summary>
-        Aplicacion1 oAplicacion1=new Aplicacion1();
-
-        public frmAplicacion1()
+        public FrmAplicacion1()
         {
             InitializeComponent();
         }
 
-
-
-
-        /// <summary>
-        /// evento que lanza un método de la clase aplicación1
-        /// 
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(oAplicacion1.Metodo());
+            int numero, contador, i;
+            contador = 0;
+            i = 1;
+            numero = int.Parse(textBox1.Text);
+            while (i <= numero)
+            {
+                if (numero % i == 0)
+                    {
+                    contador = contador + 1;
+                }
+                i = i + 1;
+            }
+            if (contador > 2)
+            {
+                MessageBox.Show("El numero introducido no es primo");
+            }
+            else
+            {
+                MessageBox.Show("El numero introducido si que es primo");
+            }
+                     
         }
     }
 }

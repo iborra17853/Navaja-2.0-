@@ -11,3 +11,12 @@ E:\OneDrive\IES\2016-2017\ede\proyecto Navaja suiza\NavajaSuiza\NavajaSuiza\obj\
 C:\Users\andres\Desktop\NavajaSuiza\NavajaSuiza\bin\Debug\NavajaSuiza.exe.config
 C:\Users\andres\Desktop\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.exe
 C:\Users\andres\Desktop\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.pdb
+C:\Users\andres\Desktop\NavajaSuiza\NavajaSuiza\bin\Debug\NavajaSuiza.exe
+C:\Users\andres\Desktop\NavajaSuiza\NavajaSuiza\bin\Debug\NavajaSuiza.pdb
+C:\Users\andres\Desktop\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.csprojResolveAssemblyReference.cache
+C:\Users\andres\Desktop\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicación_1.frmAplicacion1.resources
+C:\Users\andres\Desktop\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.frmMain.resources
+C:\Users\andres\Desktop\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Properties.Resources.resources
+C:\Users\andres\Desktop\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.csproj.GenerateResource.Cache
+C:\Users\andres\Desktop\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicación_2.FrmAplicacion2.resources
+C:\Users\andres\Desktop\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicación_3.FrmAplicacion3.resources
